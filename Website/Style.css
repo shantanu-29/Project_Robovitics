@@ -57,19 +57,21 @@ body {
   font-size: 1em;
   margin: 4px 2px;
   cursor: pointer;
-  align-items: right;
+  align-items: flex-start;
   transition-duration: 0.4s;
   border-radius: 10px;	
 
 }
   .button1 {background-color: #d4d1e2; color: #542ab6de; left: 30; position: sticky;  } 
-  .button2 {background-color: #542ab6de; color:#d4d1e2; left: 50; position: absolute; }   
+  .button2 {background-color: #542ab6de; color:#d4d1e2; left: 50; position: sticky; }   
 
   #plaint {
     width: 100;
     padding: 12px 20px;
     background-color:#d4d1e2;
-    color: #542ab6de
+    color: #542ab6de;
+    font-family: inherit;
+    text-align: justify;
 
   }
   
